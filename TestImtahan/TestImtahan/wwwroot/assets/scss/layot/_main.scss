@@ -1,11 +1,12 @@
 #intro {
     height: 100vh;
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
-    background-image: url("/assets/image/background.svg");
+    background-image: url("/assets/image/intro-back.png");
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: 100% 80%;
 }
 
 .content {

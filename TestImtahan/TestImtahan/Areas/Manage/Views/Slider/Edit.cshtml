@@ -1,0 +1,28 @@
+﻿@model ClientsComments
+@{
+    ViewData["Title"] = "Edit";
+}
+<form method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label asp-for="FullName" ></label>
+    <input asp-for="FullName" class="form-control">
+    <span asp-validation-for="FullName"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Comment" ></label>
+    <input asp-for="Comment" class="form-control">
+    <span asp-validation-for="Comment"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Position" ></label>
+    <input asp-for="Position" class="form-control">
+    <span asp-validation-for="Position"></span>
+  </div>
+  <div class="form-group">
+    <label asp-for="Image" ></label>
+    <input asp-for="Image" class="form-control">
+    <span asp-validation-for="Image"></span>
+  </div>
+  <button type="submit" class="btn btn-primary">Edit</button>
+</form>
+
